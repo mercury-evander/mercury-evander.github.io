@@ -3,38 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercury Lapham: Home</title>
+    <title>Mercury's Homepage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #e0f7e0; /* Light green background */
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #f0fff0; /* Light green container */
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #333;
+            color: #008000; /* Dark green text */
         }
         p {
-            color: #666;
+            color: #333; /* Dark text */
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #666; /* Gray text */
+        }
+        .resume-link {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #008000; /* Dark green text */
+            background-color: #c8e6c9; /* Light green button background */
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .resume-link:hover {
+            background-color: #a5d6a7; /* Darker green on hover */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to My Personal Landing Page</h1>
+            <h1>Welcome to Mercury's Homepage</h1>
         </header>
         <section>
             <h2>About Me</h2>
-            <p>I am a passionate and creative person with a variety of technical skills. I specialize in Python programming language and am proficient in both Google Suite and Microsoft Office.</p>
+            <p>I am a passionate person with a variety of technical experience. I specialize in Python programming language and am proficient in using both Google Suite and Microsoft Office.</p>
         </section>
         <section>
             <h2>Skills</h2>
@@ -44,8 +65,22 @@
                 <li>Microsoft Office</li>
             </ul>
         </section>
+        <section>
+            <h2>Projects</h2>
+            <h3>Python Projects</h3>
+            <p>Used Google Colab to write code analyzing tornadoes in the United States from 1950-2021</p>
+            <h3>Google Suite Projects</h3>
+            <p>Used Google Sheets to create and manage budgets, create charts and graphs for data analysis and physics presentations. Used Google Slides to create engaging and informational presentations for course projects.</p>
+            <h3>Microsoft Office Projects</h3>
+            <p>Description of Microsoft Office projects...</p>
+        </section>
+        <section>
+            <h2>CV/Resume</h2>
+            <p>Feel free to download my CV/resume below:</p>
+            <a href="Mercury Lapham - Resume.pdf" class="resume-link" target="_blank">Download CV/Resume</a>
+        </section>
         <footer>
-            <p>Contact me at: mercuryevander12@gmail.com</p>
+            <p>Contact me at: <a href="mailto:mercuryevander12@gmail.com">mercuryevander12@gmail.com</a></p>
         </footer>
     </div>
 </body>
